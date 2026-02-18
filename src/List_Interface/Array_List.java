@@ -17,8 +17,14 @@ public class Array_List {
 
         // It prints all the elements in the list
         System.out.println("Elements of list:");
-        for (int i=0; i< list.size(); i++){
+        for(int i=0; i< list.size(); i++){
             System.out.println(list.get(i));
+        }
+
+        // Now the above for loop can be written in a more concise way using the enhanced for loop (also known as the for-each loop):
+        System.out.println("Elements of list using enhanced for loop:");
+        for(Integer i: list){
+            System.out.println(i);
         }
 
     }

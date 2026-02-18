@@ -102,10 +102,15 @@ public class Array_List {
         System.out.println("Sorted list: "+list6);
 
         // Now if you want to remove an element, you can do it using wrapper.
-        // Provide teh element and not the index to remove the element.
+        // Provide the element and not the index to remove the element.
         list6.remove(Integer.valueOf(7));
         System.out.println("List after removing element 7: "+list6);
-        //
+
+
+        // Stringpool constant:
+        String s1 = "Hello";
+        String s2 = "Hello";
+        System.out.println(s1==s2); // true because both s1 and s2 refer to the same string literal in the string pool.
     }
 
 

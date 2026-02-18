@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4861f17f-7482-4282-b1c9-efb359964939" name="Changes" comment="Enhanced For Loop or ForEach loop">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/List_Interface/Array_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List_Interface/Array_List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +103,7 @@
       <updated>1771400936622</updated>
       <workItem from="1771400944131" duration="5000" />
       <workItem from="1771423725717" duration="115000" />
-      <workItem from="1771423881668" duration="4970000" />
+      <workItem from="1771423881668" duration="5445000" />
     </task>
     <task id="LOCAL-00001" summary="Methods and description of ArrayList, print, loop and size">
       <option name="closed" value="true" />

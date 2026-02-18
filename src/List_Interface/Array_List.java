@@ -42,6 +42,28 @@ public class Array_List {
         // Now we can even replace elements.
         list.set(0,22); // replaces the element at index 0 (which is 5) with 22
         System.out.println(list);
+
+        // As we know that initial capacity of an ArrayList is 10 by default but when we add elements
+        // to an arraylist, the following steps occur:
+        // 1) Check capacity: If the current number of elements in the ArrayList exceeds its capacity, it needs to resize itself to accommodate more elements.
+        // 2) Resize the array: The ArrayList creates a new array with a larger capacity (usually doubling the current capacity) and copies the existing elements to the new array.
+        // 3) Add Element : After resizing (if necessary), the new element is added to the ArrayList at the appropriate index.
+
+        // ===> RESIZING THE ARRAY:
+        // 1) Initial Capacity : 10
+        // 2) Growth Factor: 1.5 times the old array
+        // 3) Copying Elements: 0(n) operation
+
+        // ===> Removing Elements:
+        // 1) Check bounds: If index is valid range
+        // 2) Reduce Elements: Shift elements to left to fill the gap created by removed element
+        // 3) Reduce Size: Decrease size of ArrayList by 1
+
+        List<Integer> list2 = new ArrayList<>(1000);
+        // This creates an ArrayList with an initial capacity of 1000. This means that the ArrayList
+        // can hold up to 1000 elements before it needs to resize itself. This can be useful if you
+        // know in advance that you will be adding a large number of elements to the list, as it can
+        // help to avoid the overhead of resizing the array multiple times as elements are added.
     }
 
 }

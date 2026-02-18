@@ -1,6 +1,7 @@
 package List_Interface;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Array_List {
@@ -64,6 +65,48 @@ public class Array_List {
         // can hold up to 1000 elements before it needs to resize itself. This can be useful if you
         // know in advance that you will be adding a large number of elements to the list, as it can
         // help to avoid the overhead of resizing the array multiple times as elements are added.
+
+        // Internally ArrayList doesnot shrink in size even tho if elements are removed, so to shrink
+        // the capacity, we do:
+        // list2.trimToSize(); --> It is not functional here, maybe method not available or vresion issue.
+
+        // NOW AN ARRAYLIST CAN BE INITIALIZED WITH STRING VALUES AS WELL:
+        List<String> list3 = Arrays.asList("Monday","Tuesday", "Wednesday");
+        System.out.println("Simple String List");
+        System.out.println(list3);
+
+        // In Java, you can do List.of() but it is immutable, meaning you cannot add or remove elements
+        // from it after it is created. It is a convenient way to create a fixed-size list of
+        // elements without the need for an ArrayList or other mutable collection. For example:
+        List<Integer> list4 = List.of(3,5,7,9,13,17,19);
+        System.out.println("List of immutable elements: "+list4);
+        // So now if I try to replace or set a value, it won't let me do it.
+        //list4.set(4,55); // throws UnsupportedOperationException as list4 is immutable and does not support modification
+        //System.out.println(list4);
+
+        // Now we are passing a string array to arraylist
+        String[] arr = {"Apple", "Banana", "Mango"};
+        List<String> list5 = Arrays.asList(arr);
+       // list5.add("Cherry");
+        System.out.println("Printing list5: "+list5);
+        // throws UnsupportedOperationException as list5 is backed by the original array and does not support modification
+
+        // SORTING OF A LIST
+        List<Integer> list6 = new ArrayList<>();
+        list6.add(9);
+        list6.add(0);
+        list6.add(5);
+        list6.add(2);
+        list6.add(7);
+        list6.sort(null);
+        System.out.println("Sorted list: "+list6);
+
+        // Now if you want to remove an element, you can do it using wrapper.
+        // Provide teh element and not the index to remove the element.
+        list6.remove(Integer.valueOf(7));
+        System.out.println("List after removing element 7: "+list6);
+        //
     }
+
 
 }

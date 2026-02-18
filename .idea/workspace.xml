@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4861f17f-7482-4282-b1c9-efb359964939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/List_Interface/Array_List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4861f17f-7482-4282-b1c9-efb359964939" name="Changes" comment="Enhanced For Loop or ForEach loop">
+      <change beforePath="$PROJECT_DIR$/src/List_Interface/Array_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List_Interface/Array_List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -104,12 +103,43 @@
       <updated>1771400936622</updated>
       <workItem from="1771400944131" duration="5000" />
       <workItem from="1771423725717" duration="115000" />
-      <workItem from="1771423881668" duration="1722000" />
+      <workItem from="1771423881668" duration="2037000" />
     </task>
+    <task id="LOCAL-00001" summary="Methods and description of ArrayList, print, loop and size">
+      <option name="closed" value="true" />
+      <created>1771425971330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771425971330</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gitignore">
+      <option name="closed" value="true" />
+      <created>1771426065894</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771426065894</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Enhanced For Loop or ForEach loop">
+      <option name="closed" value="true" />
+      <created>1771426094796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771426094796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Methods and description of ArrayList, print, loop and size" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="Enhanced For Loop or ForEach loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhanced For Loop or ForEach loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

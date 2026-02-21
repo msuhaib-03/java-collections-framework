@@ -2,6 +2,7 @@ package List_Interface;
 
 // Using a separate class:
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -14,15 +15,29 @@ class MyComparator implements Comparator<String> {
 }
 
 // lets do one more thing to understand it even clearly
-class Student{
-    private String name;
-    private float gpa;
-    Student(String name, float gpa) {
-        this.name = name;
-        this.gpa = gpa;
+class Student {
+    private String Name;
+    private double Gpa;
+
+    Student(String Name, double Gpa) {
+        this.Name = Name;
+        this.Gpa = Gpa;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+    }
+
+    public double getGpa() {
+        return Gpa;
+    }
+
+    public void setGpa(double gpa) {
     }
 }
-
 
 public class Comparators {
     public static void main(String[] args){
@@ -49,7 +64,22 @@ public class Comparators {
         System.out.println(list); // Output: [Apple, Guava, Cherry, Banana]
         // It prints based on the length of the string in ascending order.
 
+        // Now we can even sort based on the first character of the string:
+        // By using Student class:
+        List<Student> students = new ArrayList<>();
+        students.add(new Student("Alice", (double) 3.5));
+        students.add(new Student("Bob", (double) 3.8));
+        students.add(new Student("Charlie", (double) 3.2));
+        students.add(new Student("Alina", (double) 3.8));
+        Comparator<Student> comparator = Comparator.comparing(Student::getGpa).thenComparing(Student::getName); // this method helps us to avoid writing if-else blocks and returns ascending or descending and can be used like .thenComparing()
+        students.sort(comparator);
+        // It sorts the students based on their GPA in ascending order. If we want to sort
 
+        for (Student s: students){
+            System.out.println(s.getName() + " - " + s.getGpa());
+        }
 
+        // SO we saw that we can use comparators either by implementing the Comparator interface in a separate class or by using lambda expressions to define the comparison logic inline. This allows us to sort objects based on specific attributes or criteria that we define, rather than relying on their natural ordering.
+        // And by using the Comparator.comparing() method, we can easily create a comparator based on a specific attribute of the objects we want to sort, such as GPA in this case. This method helps us to avoid writing complex if-else blocks and allows us to chain multiple comparisons using .thenComparing() for more complex sorting criteria.
     }
 }

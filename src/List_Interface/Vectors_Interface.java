@@ -1,5 +1,6 @@
 package List_Interface;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Vector;
 
@@ -35,6 +36,62 @@ public class Vectors_Interface {
         for(Integer i : vector2){
             System.out.println(i);
         }
+
+
+        // ALRIGHT SO NOW LETS SEE THREAD SAFETY IN VECTORS:
+        ArrayList<Integer> arrayList3 = new ArrayList<>();
+        Thread t1 = new Thread(() -> {
+            for(int i=0; i<1000; i++){
+                arrayList3.add(i);
+            }
+        });
+        // if 500 before any instant, then one thread has to be successful in last addition not both of them, so it will be 501 and not 502.
+        Thread t2 = new Thread(() -> {
+            for(int i=0; i<1000; i++){
+                arrayList3.add(i);
+            }
+        });
+
+        t1.start();
+        t2.start();
+
+        try{
+            t1.join();
+            t2.join();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        System.out.println("Size of ArrayList3: "+ arrayList3.size()+ "." + "NO THREAD SAFETY!!"); // Less than 2000.
+        // Due to the lack of synchronization in ArrayList, it is possible for both threads to add elements to the list simultaneously, which can lead to data corruption and an incorrect size of the list. In this case, the size of arrayList3 may be less than 2000 due to the race condition, and it may even throw a ConcurrentModificationException if one thread tries to modify the list while another thread is iterating over it.
+        // Therefore in order to avoid such conditions, we use Vector which is synchronized and thread-safe, ensuring that only one thread can access the list at a time, preventing data corruption and ensuring the correct size of the list.
+
+
+        // VECTOR IMPLEMENTATION:
+        Vector<Integer> vector4 = new Vector<>();
+        Thread t3 = new Thread(() -> {
+            for(int i=0; i<1000; i++){
+                vector4.add(i);
+            }
+        });
+        // if 500 before any instant, then one thread has to be successful in last addition not both of them, so it will be 501 and not 502.
+        Thread t4 = new Thread(() -> {
+            for(int i=0; i<1000; i++){
+                vector4.add(i);
+            }
+        });
+
+        t3.start();
+        t4.start();
+
+        try{
+            t3.join();
+            t4.join();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        System.out.println("Size of Vector: "+ vector4.size()+"." + "THREAD SAFETY!!"); // 2000 is output
 
     }
 }

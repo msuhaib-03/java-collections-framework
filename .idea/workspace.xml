@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4861f17f-7482-4282-b1c9-efb359964939" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/List_Interface/Stack_Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List_Interface/Stack_Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/List_Interface/CopyOnWrite_ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,7 @@
   "keyToString": {
     "Application.Array_List.executor": "Run",
     "Application.Comparators.executor": "Run",
+    "Application.CopyOnWrite_ArrayList.executor": "Run",
     "Application.Linked_List.executor": "Run",
     "Application.Stack_Interface.executor": "Run",
     "Application.Vectors_Interface.executor": "Run",
@@ -109,7 +111,7 @@
       <workItem from="1771423725717" duration="115000" />
       <workItem from="1771423881668" duration="5835000" />
       <workItem from="1771670900353" duration="8551000" />
-      <workItem from="1771781709017" duration="1463000" />
+      <workItem from="1771781709017" duration="3302000" />
     </task>
     <task id="LOCAL-00001" summary="Methods and description of ArrayList, print, loop and size">
       <option name="closed" value="true" />

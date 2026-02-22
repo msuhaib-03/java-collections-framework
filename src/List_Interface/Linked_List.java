@@ -1,7 +1,29 @@
 package List_Interface;
 
+import org.w3c.dom.Node;
+
 import java.util.Arrays;
 import java.util.LinkedList;
+
+// SOME NOTES ON LINKED LIST:
+// A linear data structure in which every block which is called a node contains 2 things, data and a pointer.
+// data is value of the node and pointer is the address of the next node in the list. The last node has a pointer to null which indicates the end of the list.
+// In Singly linked list, each node has only one pointer which points to the next node in the list. In Doubly linked list, each node has two pointers, one points to the next node and the other points to the previous node in the list.
+// In doubly linked list, the first node's first pointer points to null and the list's last node's last pointer also points to null, in between its forward and backward both.
+// There's no null in circular linked list as the last node's pointer points to the first node of the list and the first node's pointer also points to the last node of the list.
+
+// Now if it had to be implemented it would be like this:
+// class Node{
+//        int data;
+//        Node next;
+//}
+// And it is called or used like this:
+// Node node1 = new Node();
+// Node node2 = new Node();
+// node1.data = 5;
+// node2.data = 8;
+// node2.next = null;
+// node1.next = node2; // this means that node1 is pointing to node2 and node2 is the next node of node1 in the list.
 
 public class Linked_List {
     public static void main(String[] args) {
@@ -34,4 +56,8 @@ public class Linked_List {
         linkedList1.removeAll(linkedList2); // removes all the elements from linkedList1 that are also present in linkedList2 and this operation performs in O(n*m) time complexity as we have to traverse both lists to check for common elements and remove them.
         System.out.println(linkedList1);
     }
+
+    // But there's one thing to note here that the LinkedList class in Java is implemented as a doubly linked list, which means that each node contains a reference to both the next and previous nodes in the list. This allows for efficient traversal in both directions and makes it easier to perform certain operations, such as adding or removing elements from the middle of the list.
+    // In order to traverse, you can use loop to iterate.
+    // When deleting a node, you cancel out the pointer reference to that node and update to one forward to it.
 }

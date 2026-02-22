@@ -1,5 +1,6 @@
 package List_Interface;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class Linked_List {
@@ -20,5 +21,17 @@ public class Linked_List {
         linkedList.addFirst(7); // adds 7 at the beginning of the list and this operation performs in O(1) time complexity as we just have to update the head reference to point to the new node and the new node's next reference to point to the old head.
         linkedList.addLast(0); // adds 9 at the end of the list and 0(1) too as we just have to update the tail reference to point to the new node and the new node's next reference to null.
         System.out.println(linkedList);
+
+        linkedList.add(3,10);// adds 10 at index 3 and this operation performs in O(n) time complexity as we have to traverse the list to reach the specific index and then update the references of the nodes accordingly.
+        System.out.println(linkedList);
+        linkedList.removeIf( x -> x%2==0); // removes all the even numbers from the list and this operation performs in O(n) time complexity as we have to traverse the entire list to check for even numbers and remove them.
+        System.out.println(linkedList);
+
+
+        // There's another method to remove elements and it can be done in String too.
+        LinkedList<String> linkedList1 = new LinkedList<>(Arrays.asList("cat", "dog", "bat"));
+        LinkedList<String> linkedList2 = new LinkedList<>(Arrays.asList("cat", "elephant", "rat"));
+        linkedList1.removeAll(linkedList2); // removes all the elements from linkedList1 that are also present in linkedList2 and this operation performs in O(n*m) time complexity as we have to traverse both lists to check for common elements and remove them.
+        System.out.println(linkedList1);
     }
 }

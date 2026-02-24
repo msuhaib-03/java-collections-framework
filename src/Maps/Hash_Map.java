@@ -122,5 +122,18 @@ public class Hash_Map {
         // HASHMAP PUT AND GET TIME COMPLEXITY: 0(1)
         // ON COLLISION IN INDEX AND BUCKET: 0(n)
         // BALANCED BINARY TREE: 0(log n)
+
+
+        // BASIC COMPONENTS OF HASHMAP:
+        // 1) Hash Function: It takes a key as input and returns an integer hash code that represents the key. The hash code is used to determine the index in the underlying array where the key-value pair should be stored.
+        // 2) Buckets: The underlying array of the HashMap is divided into buckets, where each bucket can store multiple key-value pairs in case of collisions. Each bucket is typically implemented as a linked list or a balanced tree to handle collisions efficiently.
+        // 3) Key: The key is the unique identifier for each entry in the HashMap. It is used to retrieve the corresponding value from the map. Keys must implement the hashCode() and equals() methods to ensure proper functioning of the HashMap.
+        // 4) Value: The value is the data associated with a specific key in the HashMap. It can be of any type and is retrieved using the corresponding key.
+
+
+        // DATA STORED IN HASHMAP:
+        // 1) Hashing the key
+        // 2) Calculating the index
+        // 3) Storing in Bucket
     }
 }

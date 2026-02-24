@@ -1,6 +1,8 @@
 package Maps;
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class Hash_Map {
     public static void main(String[] args) {
@@ -20,5 +22,21 @@ public class Hash_Map {
         // To retrieve a value based on its key, you can use the get() method:
         String student = map.get(2); // returns "Taha" as it is the value associated with the key 2 in the map.
         System.out.println("Student with ID 2: " + student);
+
+        System.out.println(map.containsKey(1)); // returns true as the key 1 is present in the map.
+        System.out.println(map.containsValue("Taha")); // returns true.
+
+        // There's no order in HashMap, and if you want to iterate over it, you have to use Set, which is a list interface and doesn't contain dulicates.
+        Set<Integer> integers = map.keySet();
+        for(Integer key: integers){
+            System.out.println(map.get(key));
+        }
+
+
+        // Now if you want to print both key and value, you can use entrySet() method which returns a set of key-value pairs in the map.
+        for (Map.Entry<Integer, String> integerStringEntry : map.entrySet()) {
+            System.out.println(integerStringEntry.getKey() + " : " + integerStringEntry.getValue());
+        }
+
     }
 }

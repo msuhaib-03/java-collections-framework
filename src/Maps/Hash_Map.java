@@ -112,5 +112,15 @@ public class Hash_Map {
         System.out.println("Value associated with p3: " + personStringHashMap.get(p3)); // returns "Artist" as it is the value associated with p3 in the map, which is the same as p1.
 
         // Now you can see that object reference remains same but the value is updated as p1 and p3 are considered equal based on the equals and hashCode methods we implemented in the Person class. So when we put p3 in the map, it overrides the value associated with p1, which is "Engineer", with the new value "Artist". This is because HashMap uses the hashCode and equals methods to determine if two keys are considered equal, and in this case, p1 and p3 are considered equal because they have the same name and id. Therefore, only one entry is stored in the map for both p1 and p3, and the value associated with that entry is "Artist".
+
+        // KEY -> HASHCODE -> INDEX -> VALUE
+        // If collision happens on generating of same index on hashfunction, then it will use LinkedList to store multiple values at the same index. So it will check for the key in the linked list and if it finds the key, it will update the value, otherwise it will add a new entry in the linked list at that index.
+        // In Java8, LinkedLists are replaced with balanced trees when the number of entries at a single index exceeds a certain threshold (usually 8). This is done to improve the performance of the HashMap in cases where there are many collisions, as balanced trees provide better search performance than linked lists in such cases. When the number of entries at a single index exceeds the threshold, the linked list is converted into a balanced tree, which allows for faster retrieval of values based on their keys. However, if the number of entries at that index falls below the threshold again, it will be converted back to a linked list to save memory.
+        // The default size of HashMap is 16 and the load factor is 0.75, which means that when the number of entries in the map exceeds 75% of the current capacity, the map will be resized to double its current capacity to maintain efficient performance.
+
+
+        // HASHMAP PUT AND GET TIME COMPLEXITY: 0(1)
+        // ON COLLISION IN INDEX AND BUCKET: 0(n)
+        // BALANCED BINARY TREE: 0(log n)
     }
 }

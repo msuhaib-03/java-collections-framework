@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4861f17f-7482-4282-b1c9-efb359964939" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Maps/Hash_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maps/Hash_Map.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +113,7 @@
       <workItem from="1771423881668" duration="5835000" />
       <workItem from="1771670900353" duration="8551000" />
       <workItem from="1771781709017" duration="4093000" />
-      <workItem from="1771915567503" duration="990000" />
+      <workItem from="1771915567503" duration="2930000" />
     </task>
     <task id="LOCAL-00001" summary="Methods and description of ArrayList, print, loop and size">
       <option name="closed" value="true" />

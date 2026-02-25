@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4861f17f-7482-4282-b1c9-efb359964939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Maps/LRU_Cache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Maps/Hash_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maps/Hash_Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Maps/Linked_HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maps/Linked_HashMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
     "Application.Comparators.executor": "Run",
     "Application.CopyOnWrite_ArrayList.executor": "Run",
     "Application.Hash_Map.executor": "Run",
+    "Application.LRU_Cache.executor": "Run",
     "Application.Linked_HashMap.executor": "Run",
     "Application.Linked_List.executor": "Run",
     "Application.Stack_Interface.executor": "Run",
@@ -114,7 +117,7 @@
       <workItem from="1771670900353" duration="8551000" />
       <workItem from="1771781709017" duration="4093000" />
       <workItem from="1771915567503" duration="4126000" />
-      <workItem from="1772002192644" duration="1424000" />
+      <workItem from="1772002192644" duration="2369000" />
     </task>
     <task id="LOCAL-00001" summary="Methods and description of ArrayList, print, loop and size">
       <option name="closed" value="true" />

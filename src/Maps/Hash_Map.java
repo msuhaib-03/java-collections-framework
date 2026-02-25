@@ -101,6 +101,7 @@ public class Hash_Map {
         Person p1 = new Person("Alice", 1);
         Person p2 = new Person("Bob", 2);
         Person p3 = new Person("Alice", 1);
+        Person p4 = new Person("Charlie", 0);
 
         personStringHashMap.put(p1, "Engineer");
         personStringHashMap.put(p2, "Doctor");
@@ -135,5 +136,15 @@ public class Hash_Map {
         // 1) Hashing the key
         // 2) Calculating the index
         // 3) Storing in Bucket
+
+        // Alright so there are 2 methods which can be used and we missed them earlier and that is:
+        // .getOrDefault() method: It returns the value to which the specified key is mapped, or defaultValue if the map contains no mapping for the key.
+        // .putIfAbsent() method: It associates the specified value with the specified key in this map if the specified key is not already associated with a value (or is mapped to null).
+        System.out.println("===============================================================");
+        System.out.println(personStringHashMap.getOrDefault(p2, String.valueOf(0))); // returns "Doctor" as it is the value associated with the key "Bob" in the map.
+        System.out.println(personStringHashMap.getOrDefault("Charlie", "Not Found")); // returns "Not
+
+        System.out.println(personStringHashMap.putIfAbsent(p2, "Lawyer")); // returns "Doctor" as it is the existing value associated with the key "Bob" in the map, and does not update it to "Lawyer".
+        System.out.println(personStringHashMap.putIfAbsent(p4, "Teacher")); // returns null as there is no existing value associated with the key "Charlie" in the map, and it adds the key-value pair "Charlie" : "Teacher" to the map.
     }
 }

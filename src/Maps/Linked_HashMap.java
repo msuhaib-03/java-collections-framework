@@ -34,5 +34,6 @@ public class Linked_HashMap {
         }
         // In the above example, we have created a LinkedHashMap with a capacity of 5, a load factor of 0.75, and access order set to true. We added some key-value pairs to the map and then updated the values for "Guava" and "Mango". We also accessed "Guava" to demonstrate the access order feature. When we iterate over the entries of the LinkedHashMap, we can see that the order of the entries is based on their access order, with "Guava" appearing before "Mango" because it was accessed more recently.
         // The least used in Banana and it is at the top and removed while most used is at the end at is Guava and it can be placed in cache as it is most used.
+
     }
 }

@@ -23,5 +23,23 @@ public class Tree_Map {
         System.out.println("Last Sorted Key: " + treeMap.lastKey());
         System.out.println("All elements from First Sorted Key upto till provided number excluded: " +treeMap.headMap(85)); // This will return a view of the portion of the map whose keys are strictly less than 85, which means it will include the entries with keys 77 and 83, but not the entry with key 92. It excludes the provided number.
         System.out.println("All elements from this provided number till last sorted: " + treeMap.tailMap(92)); // This returns all values from provided till last.
+
+    // You can pass comparator in TreeMap like this: TreeMap<>((a,b) -> b-a), and it will sort in descending order. Its a use of comparator.
+
+        // The idea here of TreeMap is Red-Black tree / Self balancing binary search tree. The complexity is 0(log(n)).
+        // Insertion, deletion, searching all can be done here like Mpa.
+        // In Binary Search Tree, the node on right of parent node is greater than parent node and node on left of parent node is smaller than parent node and in worst case scenarios, it is 0(n).
+        // But in red-black tree, it is self balancing so the tree balances itself and complexity is now 0(log(n)) in worst case scenarios too.
+
+        // For example in BST, we we add 10,20,30 it will be added like this:
+        //         10
+        //           \
+        //            20
+        //              \
+        //               30
+        // But in Red-Black tree, it will be added like this:
+        //         20
+        //        /  \
+        //      10    30
     }
 }

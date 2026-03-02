@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4861f17f-7482-4282-b1c9-efb359964939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Maps/Identity_HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Maps/Comparable_Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Array_List.executor": "Run",
+    "Application.Comparable_Demo.executor": "Run",
     "Application.Comparators.executor": "Run",
     "Application.CopyOnWrite_ArrayList.executor": "Run",
     "Application.Garbage_CollectionBeforeWeakHashMap.executor": "Run",
@@ -119,7 +121,8 @@
       <workItem from="1771781709017" duration="4093000" />
       <workItem from="1771915567503" duration="4126000" />
       <workItem from="1772002192644" duration="3065000" />
-      <workItem from="1772077886321" duration="3696000" />
+      <workItem from="1772077886321" duration="4600000" />
+      <workItem from="1772442446262" duration="1569000" />
     </task>
     <task id="LOCAL-00001" summary="Methods and description of ArrayList, print, loop and size">
       <option name="closed" value="true" />

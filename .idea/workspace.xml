@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4861f17f-7482-4282-b1c9-efb359964939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Maps/Comparable_Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Maps/SortedMaps/Tree_Map.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
     "Application.Linked_HashMap.executor": "Run",
     "Application.Linked_List.executor": "Run",
     "Application.Stack_Interface.executor": "Run",
+    "Application.Tree_Map.executor": "Run",
     "Application.Vectors_Interface.executor": "Run",
     "Application.WeakHash_Map.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -122,7 +122,7 @@
       <workItem from="1771915567503" duration="4126000" />
       <workItem from="1772002192644" duration="3065000" />
       <workItem from="1772077886321" duration="4600000" />
-      <workItem from="1772442446262" duration="1569000" />
+      <workItem from="1772442446262" duration="2753000" />
     </task>
     <task id="LOCAL-00001" summary="Methods and description of ArrayList, print, loop and size">
       <option name="closed" value="true" />

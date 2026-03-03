@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4861f17f-7482-4282-b1c9-efb359964939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Maps/Immutable_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Maps/Enum_Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
     "Application.Comparators.executor": "Run",
     "Application.Concurrent_HashMap.executor": "Run",
     "Application.CopyOnWrite_ArrayList.executor": "Run",
+    "Application.Enum_Map.executor": "Run",
     "Application.Garbage_CollectionBeforeWeakHashMap.executor": "Run",
     "Application.Hash_Map.executor": "Run",
     "Application.Hash_Table.executor": "Run",
@@ -127,7 +129,7 @@
       <workItem from="1772002192644" duration="3065000" />
       <workItem from="1772077886321" duration="4600000" />
       <workItem from="1772442446262" duration="6631000" />
-      <workItem from="1772520799440" duration="1652000" />
+      <workItem from="1772520799440" duration="2846000" />
     </task>
     <task id="LOCAL-00001" summary="Methods and description of ArrayList, print, loop and size">
       <option name="closed" value="true" />

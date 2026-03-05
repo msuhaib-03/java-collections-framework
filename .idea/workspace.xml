@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4861f17f-7482-4282-b1c9-efb359964939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Maps/ConcurrentSkipList_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Maps/Iterable_Iterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,48 +43,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Array_List.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Comparable_Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Comparators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Concurrent_HashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CopyOnWrite_ArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Enum_Map.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Garbage_CollectionBeforeWeakHashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hash_Map.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hash_Table.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Identity_HashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Immutable_Map.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LRU_Cache.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Linked_HashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Linked_List.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Navigable_Map.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Stack_Interface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tree_Map.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Vectors_Interface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WeakHash_Map.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JavaMastery/java-collections-framework&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/JavaMastery/java-collections-framework/src/Main.java&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Array_List.executor": "Run",
+    "Application.Comparable_Demo.executor": "Run",
+    "Application.Comparators.executor": "Run",
+    "Application.Concurrent_HashMap.executor": "Run",
+    "Application.CopyOnWrite_ArrayList.executor": "Run",
+    "Application.Enum_Map.executor": "Run",
+    "Application.Garbage_CollectionBeforeWeakHashMap.executor": "Run",
+    "Application.Hash_Map.executor": "Run",
+    "Application.Hash_Table.executor": "Run",
+    "Application.Identity_HashMap.executor": "Run",
+    "Application.Immutable_Map.executor": "Run",
+    "Application.Iterable_Iterator.executor": "Run",
+    "Application.LRU_Cache.executor": "Run",
+    "Application.Linked_HashMap.executor": "Run",
+    "Application.Linked_List.executor": "Run",
+    "Application.Navigable_Map.executor": "Run",
+    "Application.Stack_Interface.executor": "Run",
+    "Application.Tree_Map.executor": "Run",
+    "Application.Vectors_Interface.executor": "Run",
+    "Application.WeakHash_Map.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/JavaMastery/java-collections-framework",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/JavaMastery/java-collections-framework/src/Main.java",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Array_List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="List_Interface.Array_List" />
@@ -130,7 +131,7 @@
       <workItem from="1772077886321" duration="4600000" />
       <workItem from="1772442446262" duration="6631000" />
       <workItem from="1772520799440" duration="2962000" />
-      <workItem from="1772697737971" duration="214000" />
+      <workItem from="1772697737971" duration="1409000" />
     </task>
     <task id="LOCAL-00001" summary="Methods and description of ArrayList, print, loop and size">
       <option name="closed" value="true" />

@@ -1,7 +1,6 @@
 package Sets;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class All_Sets_Interfaces {
     public static void main(String[] args) {
@@ -23,6 +22,27 @@ public class All_Sets_Interfaces {
         set.add(91);
         set.add(26);
         set.add(37);
-        System.out.println(set);
+        System.out.println("Unordered Hashset:" + set);
+
+
+        // If you want to maintain order, then go with LinkedHashSet and if you want to maintain sorted order, then go with TreeSet.
+        Set<Integer> linkedHashSet = new LinkedHashSet<>();
+        linkedHashSet.add(91);
+        linkedHashSet.add(26);
+        linkedHashSet.add(37);
+        System.out.println("Insertion Ordered LinkedHashSet" + linkedHashSet); // This will print the elements in the order they were added to the set because LinkedHashSet maintains the insertion order of the elements.
+
+        Set<Integer> treeSet = new TreeSet<>();
+        treeSet.add(91);
+        treeSet.add(26);
+        treeSet.add(37);
+        System.out.println( "Ascending Ordered TreeSet" + treeSet); // This will print the elements in ascending order because TreeSet maintains the natural ordering of the elements. If you want to maintain the elements in descending order, you can use a custom comparator when creating the TreeSet.
+
+         Set<Integer> descendingTreeSet = new TreeSet<>(Comparator.reverseOrder());
+         descendingTreeSet.add(91);
+         descendingTreeSet.add(26);
+         descendingTreeSet.add(37);
+         System.out.println("Descending Ordered TreeSet" + descendingTreeSet); // This will print the elements in descending order because we have used a custom comparator that reverses the natural ordering of the elements.
     }
+
 }

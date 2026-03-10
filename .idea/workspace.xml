@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4861f17f-7482-4282-b1c9-efb359964939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Queues/Blocking_Queue/ArrayBlocking_Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queues/Blocking_Queue/LinkedBlocking_Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,7 @@
     "Application.Immutable_Map.executor": "Run",
     "Application.Iterable_Iterator.executor": "Run",
     "Application.LRU_Cache.executor": "Run",
+    "Application.LinkedBlocking_Queue.executor": "Run",
     "Application.Linked_HashMap.executor": "Run",
     "Application.Linked_List.executor": "Run",
     "Application.Navigable_Map.executor": "Run",
@@ -138,7 +139,7 @@
       <workItem from="1772520799440" duration="2962000" />
       <workItem from="1772697737971" duration="2163000" />
       <workItem from="1772794022196" duration="2515000" />
-      <workItem from="1773111370318" duration="5468000" />
+      <workItem from="1773111370318" duration="5805000" />
     </task>
     <task id="LOCAL-00001" summary="Methods and description of ArrayList, print, loop and size">
       <option name="closed" value="true" />

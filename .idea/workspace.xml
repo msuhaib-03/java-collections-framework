@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4861f17f-7482-4282-b1c9-efb359964939" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Queues/Priority_Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queues/Priority_Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queues/Dequeue_Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     "Application.Concurrent_HashMap.executor": "Run",
     "Application.CopyOnWriteArray_Set.executor": "Run",
     "Application.CopyOnWrite_ArrayList.executor": "Run",
+    "Application.Dequeue_Demo.executor": "Run",
     "Application.Enum_Map.executor": "Run",
     "Application.Garbage_CollectionBeforeWeakHashMap.executor": "Run",
     "Application.Hash_Map.executor": "Run",
@@ -136,7 +137,7 @@
       <workItem from="1772520799440" duration="2962000" />
       <workItem from="1772697737971" duration="2163000" />
       <workItem from="1772794022196" duration="2515000" />
-      <workItem from="1773111370318" duration="1411000" />
+      <workItem from="1773111370318" duration="2503000" />
     </task>
     <task id="LOCAL-00001" summary="Methods and description of ArrayList, print, loop and size">
       <option name="closed" value="true" />

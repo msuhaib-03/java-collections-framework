@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4861f17f-7482-4282-b1c9-efb359964939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Queues/Queue_LinkedListAsQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queues/Priority_Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,7 @@
     "Application.Linked_HashMap.executor": "Run",
     "Application.Linked_List.executor": "Run",
     "Application.Navigable_Map.executor": "Run",
+    "Application.Priority_Queue.executor": "Run",
     "Application.Queue_LinkedListAsQueue.executor": "Run",
     "Application.Stack_Interface.executor": "Run",
     "Application.Tree_Map.executor": "Run",
@@ -136,7 +136,7 @@
       <workItem from="1772520799440" duration="2962000" />
       <workItem from="1772697737971" duration="2163000" />
       <workItem from="1772794022196" duration="2515000" />
-      <workItem from="1773111370318" duration="713000" />
+      <workItem from="1773111370318" duration="1062000" />
     </task>
     <task id="LOCAL-00001" summary="Methods and description of ArrayList, print, loop and size">
       <option name="closed" value="true" />
